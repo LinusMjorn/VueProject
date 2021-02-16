@@ -1,11 +1,12 @@
 const app = Vue.createApp({
     data(){
         return {
+            url: "http://www.google.com", 
             showBooks: true,
             books: [
-                {title: "Name of the Wind", author: 'Patrick Rothfuss'},
-                {title: "An Alloy of Law", author: 'Brandon Sanderson'},
-                {title: "Mistborn", author: 'Brandon Sanderson'}
+                {title: "Name of the Wind", author: 'Patrick Rothfuss', img:'assets/1.jpg'},
+                {title: "An Alloy of Law", author: 'Brandon Sanderson', img:'assets/2.jpg'},
+                {title: "Mistborn", author: 'Brandon Sanderson', img:'assets/3.jpg'}
 
             ]
         }
